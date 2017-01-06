@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{992611C4-DC9D-4B4A-AA9C-4934D6C50F8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{22CB9A51-F048-49CE-9A0D-D136EF8A39E7}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ASPCoreDapper", "src\ASPCoreDapper\ASPCoreDapper.xproj", "{663953DC-71BA-4F96-8369-65D12F1052D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{663953DC-71BA-4F96-8369-65D12F1052D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{663953DC-71BA-4F96-8369-65D12F1052D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{663953DC-71BA-4F96-8369-65D12F1052D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{663953DC-71BA-4F96-8369-65D12F1052D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{663953DC-71BA-4F96-8369-65D12F1052D9} = {992611C4-DC9D-4B4A-AA9C-4934D6C50F8F}
+	EndGlobalSection
+EndGlobal
